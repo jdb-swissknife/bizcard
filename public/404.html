@@ -6,7 +6,7 @@
     // When GitHub serves 404, this script runs, decodes the path from the URL,
     // and redirects to index.html with the path as a query param.
     var path = window.location.pathname + window.location.search + window.location.hash;
-    var redirect = '/bizcard/?_redirect=' + encodeURIComponent(path);
+    var redirect = '/?_redirect=' + encodeURIComponent(path);
     window.location.replace(redirect);
   </script>
 </head>

@@ -17,7 +17,7 @@ if (redirect) {
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter basename="/bizcard">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </StrictMode>,

@@ -28,7 +28,7 @@ export default function CardLanding() {
           </div>
           <h1 className="text-xl font-bold text-gray-900 mb-2">No card found</h1>
           <p className="text-sm text-gray-500 mb-4">This QR code doesn't have card data attached.</p>
-          <a href="/bizcard/" className="text-sm text-brand-600 font-medium hover:underline">
+          <a href="/" className="text-sm text-brand-600 font-medium hover:underline">
             Create your own free digital business card
           </a>
         </div>
@@ -165,7 +165,7 @@ export default function CardLanding() {
       {/* Footer */}
       <div className="pb-6 text-center">
         <span className="text-[10px] text-gray-400">
-          Powered by <a href="/bizcard/" className="font-semibold text-gray-500 hover:underline">MindVault</a>
+          Powered by <a href="/" className="font-semibold text-gray-500 hover:underline">MindVault</a>
         </span>
       </div>
     </div>
